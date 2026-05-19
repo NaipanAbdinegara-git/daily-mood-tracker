@@ -2,9 +2,9 @@ import os
 from datetime import datetime
 
 def main():
-    print("=========================================")
+    print("=" * 41)
     print("   DAILY MOOD & PRODUCTIVITY TRACKER    ")
-    print("=========================================")
+    print("=" * 41)
     
     hari_ini = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     print(f"Tanggal: {hari_ini}\n")
