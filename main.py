@@ -31,6 +31,3 @@ def main():
         print("Tetap semangat dan konsisten ya! Kamu sudah melangkah lebih dekat ke impianmu. 🚀")
     except Exception as e:
         print(f"\nGagal menyimpan catatan: {e}")
-
-if __name__ == "__main__":
-    main()
